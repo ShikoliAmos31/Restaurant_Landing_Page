@@ -19,7 +19,7 @@ import {ShoppingCartRoundedIcon} from "@mui/icons-material/ShoppingCartRounded";
 const Navbar = () => {
 
     const [openMenu,setOpenMenu] = useState(false)
-    const menuOption = {
+    const menuOption = [
         {
             text:"Home",
             icon:<HomeIcon/>
@@ -40,7 +40,7 @@ const Navbar = () => {
             text: "Cart",
             icon: <ShoppingCartRoundedIcon />,
         },
-    };
+    ];
 
     return (
         <nav>
